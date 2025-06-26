@@ -14,10 +14,10 @@ from_date = today - timedelta(days=1)  # Make to_date > from_date
 to_date = today 
 
 # === Config ===
-BOT_TOKEN = "7655888212:AAFeZYVwwffke0aUWdEfFevmr3cnO7mYyqo"
-ERP_URL = "http://frappelocal.com/"
-ERP_API_KEY = "42e5bb495e08331"
-ERP_API_SECRET = "5e048009f2b914c"
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+ERP_URL = "http://your-local-erp-instance/"
+ERP_API_KEY = "your-api-key"
+ERP_API_SECRET = "your-api-secret"
 
 HEADERS = {
     "Authorization": f"token {ERP_API_KEY}:{ERP_API_SECRET}",
